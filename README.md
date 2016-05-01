@@ -19,6 +19,6 @@ Then add **hubot-mitch-jokes** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot tell me a mitch joke
+hubot>> I used to do drugs. I still do, but I used to, too.
 ```
