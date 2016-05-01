@@ -1,51 +1,151 @@
-[
-    {"joke":"I used to do drugs. I still do, but I used to, too."},
-    {"joke":"Every book is a children’s book if the kid can read."},
-    {"joke":"My belt holds up my pants and my pants have belt loops that hold up the belt. What the fuck’s really going on down there? Who is the real hero?"},
-    {"joke":"I like escalators, because an escalator can never break; it can only become stairs. There would never be an “Escalator Temporarily Out of Order” sign. Only an “Escalator Temporarily Stairs… Sorry for the Convenience.”"},
-    {"joke":"My friend asked me if I wanted a frozen banana, but I said “No… but I want a regular banana later, so yeah.”"},
-    {"joke":"I had one anchovy. That’s why I didn’t have two anchovies."},
-    {"joke":"I find that a duck’s opinion of me is very much influenced over whether or not I have bread."},
-    {"joke":"I had a paper route when I was a kid. I was a paperboy. I was supposed to go to 2,000 houses… or two dumpsters."},
-    {"joke":"I used to be a hot tar roofer. Yeah, I remember that… day."},
-    {"joke":"I don’t have a girlfriend. I just know a girl who would get really mad if she heard me say that."},
-    {"joke":"One time a guy handed me a picture, he said “Here’s a picture of me when I was younger.” Every picture of you is when you were younger."},
-    {"joke":"You know, I’m sick of following my dreams, man. I’m just gonna ask where they’re going and hook up with ‘em later."},
-    {"joke":"I order the club sandwich all the time. And I’m not even a member, man. I don’t know how I get away with it."},
-    {"joke":"I hate dreaming. Because when you wanna sleep, you wanna sleep. Dreaming is work, you know? Like, there I am, laying in my comfortable bed in my hotel room. It’s beautiful. Next thing you know, I have to build a go-kart with my ex landlord."},
-    {"joke":"I have no problem not listening to The Temptations, which is weird."},
-    {"joke":"I write jokes for a living, man. See I sit in my hotel at night, I think of something that’s funny and then I go get a pen and I write it down. Or if the pen’s too far away, I have to convince myself that what I thought of ain’t funny."},
-    {"joke":"I want to hang a map of the world in my house. Then I’m gonna put pins into all the locations I’ve traveled to, but first I’m gonna have to travel to the top two corners of the map, so it won’t fall down."},
-    {"joke":"I wrote a script and I gave it to a guy who reads scripts. And he read it and he said he really likes it, but he thinks I need to re-write it. I said “Fuck that, I’ll just make a copy.”"},
-    {"joke":"I like rice. Rice is great if you want to eat 2,000 of something."},
-    {"joke":"Mr. Pibb is the replica of Dr Pepper. But it’s the bullshit replica because dude didn’t even get his degree!"},
-    {"joke":"Dr. Scholl makes foot products, right? And he’s a doctor, which means he went to school for a long time. But it doesn’t take a lot to figure out that stepping on a cushion would be more comfortable. That fucker wasted lots of time at school. ‘Cause I would have bought that shit from a Mr. Scholl."},
-    {"joke":"This one commercial said “Forget everything you know about slip covers,” so I did. And it was a load off my mind. Then the commercial tried to sell slip covers, but I didn’t know what the fuck they were. "},
-    {"joke":"This is what my friend said to me, he said “I think the weather’s trippy.” And I said “No, man. It’s not the weather that’s trippy. Perhaps it is the way that we perceive it that is indeed trippy.” Then I thought, “Man, I should have just said… ‘Yeah.’”"},
-    {"joke":"My apartment is infested with koala bars. It’s the cutest infestation ever. Way better than cockroaches. When I turn on the light, a bunch of koala bears scatter. And I don’t want ‘em to. I’m like, “Hey, hold on fellas. Let me hold one of you.” "},
-    {"joke":"Is a hippopotamus a hippopotamus… or a really cool opotamus?"},
-    {"joke":"I think Pringles’ initial intention was to make tennis balls. But on the day that the rubber was supposed to show up, a big truck load of potatoes arrived. And Pringles is a laid back company, they said, “Fuck it, cut ‘em up.”"},
-    {"joke":"I like refried beans. That’s why I want to try fried beans. Because maybe they’re just as good and weren’t wasting time."},
-    {"joke":"I got a king size bed. I don’t know any kings, but if one came over, I guess he would be comfortable."},
-    {"joke":"I don’t have a microwave oven, but I do have a clock that occasionally cooks shit."},
-    {"joke":"I got some tartar control toothpaste. I still got tartar, but that shit’s under control."},
-    {"joke":" I can’t tell you what hotel I’m staying at, but there are two trees involved."},
-    {"joke":"I bought myself a parrot, the parrot talked, but it did not say “I’m hungry”… so it died."},
-    {"joke":"If you’re watching a parade, make sure you stand in one spot. Don’t follow it. It never changes. And if the parade is boring, run in the opposite direction. You will fast forward the parade. "},
-    {"joke":"I like Kit Kats… unless I’m with four or more people."},
-    {"joke":"I was going to get a candy bar, the button I was supposed to push was HH. So I went to the side, I found the H button, I pushed it twice. Fuckin’ potato chips came out, man, because they had an HH button. For christ’s sakes, you need to let me know."},
-    {"joke":"I was gonna have my teeth whitened, but then I said, “Fuck that, I’ll just get a tan instead.”"},
-    {"joke":"I think Big Foot is blurry, that’s the problem. "},
-    {"joke":"I can read minds. But it’s pointless because I’m illiterate."},
-    {"joke":"I haven’t slept for 10 days… because that would be too long."},
-    {"joke":"I opened up a yogurt, it said “Please try again” because they were having a contest I was unaware of. But I thought I might have opened the yogurt wrong. "},
-    {"joke":"Wearing a turtleneck is like being strangled by a really weak guy… all day. "},
-    {"joke":"I got an ant farm. Them fellas didn’t grow shit!"},
-    {"joke":"I saw on HBO they were advertising this boxing match, it said “It’s a fight to the finish”… that’s a good place to end."},
-    {"joke":"I bought a house. It’s a two bedroom house. But I think it’s up to me how many bedrooms there are, don’t you?"},
-    {"joke":"This jacket is dry clean only… which means it’s dirty."},
-    {"joke":"I would like to go fishing and catch a fish stick. That would be convenient."},
-    {"joke":"I saw this wino, he was eating grapes. It’s like, “Dude, you have to wait.”"},
-    {"joke":"My lucky number is four billion. That doesn’t come in real handy when you’re gambling. “Come on, four billion. Fuck. Seven. Not even close.”"},
-    {"joke":"You know when it comes to racism, people say “I don’t care if they’re black, white, purple or green.” Oh, hold on now. Purple or green? You gotta draw the line somewhere. To hell with purple people."}
-]
+{  
+   "jokesArray":[  
+      {  
+         "joke":"I used to do drugs. I still do, but I used to, too."
+      },
+      {  
+         "joke":"Every book is a children’s book if the kid can read."
+      },
+      {  
+         "joke":"My belt holds up my pants and my pants have belt loops that hold up the belt. What the fuck’s really going on down there? Who is the real hero?"
+      },
+      {  
+         "joke":"I like escalators, because an escalator can never break; it can only become stairs. There would never be an “Escalator Temporarily Out of Order” sign. Only an “Escalator Temporarily Stairs… Sorry for the Convenience.”"
+      },
+      {  
+         "joke":"My friend asked me if I wanted a frozen banana, but I said “No… but I want a regular banana later, so yeah.”"
+      },
+      {  
+         "joke":"I had one anchovy. That’s why I didn’t have two anchovies."
+      },
+      {  
+         "joke":"I find that a duck’s opinion of me is very much influenced over whether or not I have bread."
+      },
+      {  
+         "joke":"I had a paper route when I was a kid. I was a paperboy. I was supposed to go to 2,000 houses… or two dumpsters."
+      },
+      {  
+         "joke":"I used to be a hot tar roofer. Yeah, I remember that… day."
+      },
+      {  
+         "joke":"I don’t have a girlfriend. I just know a girl who would get really mad if she heard me say that."
+      },
+      {  
+         "joke":"One time a guy handed me a picture, he said “Here’s a picture of me when I was younger.” Every picture of you is when you were younger."
+      },
+      {  
+         "joke":"You know, I’m sick of following my dreams, man. I’m just gonna ask where they’re going and hook up with ‘em later."
+      },
+      {  
+         "joke":"I order the club sandwich all the time. And I’m not even a member, man. I don’t know how I get away with it."
+      },
+      {  
+         "joke":"I hate dreaming. Because when you wanna sleep, you wanna sleep. Dreaming is work, you know? Like, there I am, laying in my comfortable bed in my hotel room. It’s beautiful. Next thing you know, I have to build a go-kart with my ex landlord."
+      },
+      {  
+         "joke":"I have no problem not listening to The Temptations, which is weird."
+      },
+      {  
+         "joke":"I write jokes for a living, man. See I sit in my hotel at night, I think of something that’s funny and then I go get a pen and I write it down. Or if the pen’s too far away, I have to convince myself that what I thought of ain’t funny."
+      },
+      {  
+         "joke":"I want to hang a map of the world in my house. Then I’m gonna put pins into all the locations I’ve traveled to, but first I’m gonna have to travel to the top two corners of the map, so it won’t fall down."
+      },
+      {  
+         "joke":"I wrote a script and I gave it to a guy who reads scripts. And he read it and he said he really likes it, but he thinks I need to re-write it. I said “Fuck that, I’ll just make a copy.”"
+      },
+      {  
+         "joke":"I like rice. Rice is great if you want to eat 2,000 of something."
+      },
+      {  
+         "joke":"Mr. Pibb is the replica of Dr Pepper. But it’s the bullshit replica because dude didn’t even get his degree!"
+      },
+      {  
+         "joke":"Dr. Scholl makes foot products, right? And he’s a doctor, which means he went to school for a long time. But it doesn’t take a lot to figure out that stepping on a cushion would be more comfortable. That fucker wasted lots of time at school. ‘Cause I would have bought that shit from a Mr. Scholl."
+      },
+      {  
+         "joke":"This one commercial said “Forget everything you know about slip covers,” so I did. And it was a load off my mind. Then the commercial tried to sell slip covers, but I didn’t know what the fuck they were. "
+      },
+      {  
+         "joke":"This is what my friend said to me, he said “I think the weather’s trippy.” And I said “No, man. It’s not the weather that’s trippy. Perhaps it is the way that we perceive it that is indeed trippy.” Then I thought, “Man, I should have just said… ‘Yeah.’”"
+      },
+      {  
+         "joke":"My apartment is infested with koala bars. It’s the cutest infestation ever. Way better than cockroaches. When I turn on the light, a bunch of koala bears scatter. And I don’t want ‘em to. I’m like, “Hey, hold on fellas. Let me hold one of you.” "
+      },
+      {  
+         "joke":"Is a hippopotamus a hippopotamus… or a really cool opotamus?"
+      },
+      {  
+         "joke":"I think Pringles’ initial intention was to make tennis balls. But on the day that the rubber was supposed to show up, a big truck load of potatoes arrived. And Pringles is a laid back company, they said, “Fuck it, cut ‘em up.”"
+      },
+      {  
+         "joke":"I like refried beans. That’s why I want to try fried beans. Because maybe they’re just as good and weren’t wasting time."
+      },
+      {  
+         "joke":"I got a king size bed. I don’t know any kings, but if one came over, I guess he would be comfortable."
+      },
+      {  
+         "joke":"I don’t have a microwave oven, but I do have a clock that occasionally cooks shit."
+      },
+      {  
+         "joke":"I got some tartar control toothpaste. I still got tartar, but that shit’s under control."
+      },
+      {  
+         "joke":" I can’t tell you what hotel I’m staying at, but there are two trees involved."
+      },
+      {  
+         "joke":"I bought myself a parrot, the parrot talked, but it did not say “I’m hungry”… so it died."
+      },
+      {  
+         "joke":"If you’re watching a parade, make sure you stand in one spot. Don’t follow it. It never changes. And if the parade is boring, run in the opposite direction. You will fast forward the parade. "
+      },
+      {  
+         "joke":"I like Kit Kats… unless I’m with four or more people."
+      },
+      {  
+         "joke":"I was going to get a candy bar, the button I was supposed to push was HH. So I went to the side, I found the H button, I pushed it twice. Fuckin’ potato chips came out, man, because they had an HH button. For christ’s sakes, you need to let me know."
+      },
+      {  
+         "joke":"I was gonna have my teeth whitened, but then I said, “Fuck that, I’ll just get a tan instead.”"
+      },
+      {  
+         "joke":"I think Big Foot is blurry, that’s the problem. "
+      },
+      {  
+         "joke":"I can read minds. But it’s pointless because I’m illiterate."
+      },
+      {  
+         "joke":"I haven’t slept for 10 days… because that would be too long."
+      },
+      {  
+         "joke":"I opened up a yogurt, it said “Please try again” because they were having a contest I was unaware of. But I thought I might have opened the yogurt wrong. "
+      },
+      {  
+         "joke":"Wearing a turtleneck is like being strangled by a really weak guy… all day. "
+      },
+      {  
+         "joke":"I got an ant farm. Them fellas didn’t grow shit!"
+      },
+      {  
+         "joke":"I saw on HBO they were advertising this boxing match, it said “It’s a fight to the finish”… that’s a good place to end."
+      },
+      {  
+         "joke":"I bought a house. It’s a two bedroom house. But I think it’s up to me how many bedrooms there are, don’t you?"
+      },
+      {  
+         "joke":"This jacket is dry clean only… which means it’s dirty."
+      },
+      {  
+         "joke":"I would like to go fishing and catch a fish stick. That would be convenient."
+      },
+      {  
+         "joke":"I saw this wino, he was eating grapes. It’s like, “Dude, you have to wait.”"
+      },
+      {  
+         "joke":"My lucky number is four billion. That doesn’t come in real handy when you’re gambling. “Come on, four billion. Fuck. Seven. Not even close.”"
+      },
+      {  
+         "joke":"You know when it comes to racism, people say “I don’t care if they’re black, white, purple or green.” Oh, hold on now. Purple or green? You gotta draw the line somewhere. To hell with purple people."
+      }
+   ]
+}
