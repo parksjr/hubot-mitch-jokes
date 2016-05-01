@@ -2,21 +2,24 @@
 #   A hubot script for mitch hedberg jokes
 #
 # Configuration:
-#   LIST_OF_ENV_VARS_TO_SET
+#   none
 #
 # Commands:
-#   hubot hello - <what the respond trigger does>
-#   orly - <what the hear trigger does>
+#   hubot tell me a mitch joke
 #
 # Notes:
-#   <optional notes required for the script>
+#   none
 #
 # Author:
-#   Michael Parks[@<org>]
+#   Michael Parks <mike@parksjr.tech>
+
+Path = require 'path'
+Fs = require 'fs'
+
+buffer = Fs.readFileSync(Path.resolve('./data', 'mitchjokes.json'))
+jokes = JSON.parse buffer
 
 module.exports = (robot) ->
-  robot.respond /hello/, (msg) ->
-    msg.reply "hello!"
-
-  robot.hear /orly/, ->
-    msg.send "yarly"
+  robot.respond /tell me a mitch joke$/, (msg) ->
+    joke = msg.random jokes
+    msg.send joke.joke

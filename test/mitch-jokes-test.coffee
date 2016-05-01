@@ -1,19 +1,23 @@
-chai = require 'chai'
-sinon = require 'sinon'
-chai.use require 'sinon-chai'
+Helper = require('hubot-test-helper')
+expect = require('chai').expect
+helper = new Helper('../src/mitch-jokes.coffee')
 
-expect = chai.expect
+class MockResponse extends Helper.Response
+  random: (items) ->
+    { joke: 'I used to do drugs. I still do, but I used to, too.' }
 
 describe 'mitch-jokes', ->
+  room = null
   beforeEach ->
-    @robot =
-      respond: sinon.spy()
-      hear: sinon.spy()
-
-    require('../src/mitch-jokes')(@robot)
-
-  it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/hello/)
-
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/orly/)
+    room = helper.createRoom({httpd: false, 'response': MockResponse})
+  
+  context 'user wants hubot to tell a mitch joke', ->
+    beforeEach ->
+      room.user.say 'bob', 'hubot tell me a mitch joke'
+    
+    it 'should respond with a mitch hedberg joke', ->
+      console.log room.messages
+      expect(room.messages).to.eql [
+        ['bob', 'hubot tell me a mitch joke']
+        ['hubot', 'I used to do drugs. I still do, but I used to, too.']
+      ]
