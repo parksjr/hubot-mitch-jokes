@@ -29,4 +29,4 @@ Feel free to fork and contribute, even if its adding more mitch jokes. See below
 
 ## Mitch joke missing?
 
-I have added a base set of mitch jokes that I like already, see [`data/mitchjokes.json`](datasrc/mitchjokes.json) for the complete list. If I am missing any that you like, fork it, add it, and pull request it!
+I have added a base set of mitch jokes that I like already, see [`data/mitchjokes.json`](data/mitchjokes.json) for the complete list. If I am missing any that you like, fork it, add it, and pull request it!
