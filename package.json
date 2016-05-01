@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-mitch-jokes.git"
+    "url": "git://github.com/parksjr/hubot-mitch-jokes.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-mitch-jokes/issues"
+    "url": "https://github.com/parksjr/hubot-mitch-jokes/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6"
