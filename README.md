@@ -1,4 +1,5 @@
 # hubot-mitch-jokes
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5466f400351043a8a0b76abe22452092)](https://www.codacy.com/app/mike_10/hubot-mitch-jokes?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=parksjr/hubot-mitch-jokes&amp;utm_campaign=Badge_Grade)
 
 A hubot script for mitch hedberg jokes
 
